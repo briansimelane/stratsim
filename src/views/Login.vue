@@ -1,6 +1,6 @@
 <template>
-  <div class="container mx-auto px-4 h-full bg-blueGray-600">
-    <div class="flex content-center items-center justify-center h-full mt-10 ">
+  <div class="container mx-auto px-4 h-full bg-Gray-600">
+    <div class="flex content-center items-center justify-center h-full">
       <div class="w-full lg:w-4/12 px-4">
         <div
           class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blue-50 border-0"
@@ -70,7 +70,7 @@
           -->
               <div class="text-center mt-6">
                 <button
-                  class="bg-blue-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
+                  class="bg-gray-700 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 w-full ease-linear transition-all duration-150"
                   type="button"
                 >
                   Login
@@ -81,12 +81,12 @@
         </div>
         <div class="flex flex-wrap mt-6 relative">
           <div class="w-1/2">
-            <a href="javascript:void(0)" class="text-blueGray-200">
+            <a href="javascript:void(0)" class="text-white">
               <small>Forgot password?</small>
             </a>
           </div>
           <div class="w-1/2 text-right">
-            <router-link to="/signup" class="text-blueGray-200">
+            <router-link to="/auth/register" class="text-white">
               <small>Create new account</small>
             </router-link>
           </div>
